@@ -1,24 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import UseEffect from './components/UseEffect';
+import Server from './components/Server';
+import ServerCustomHook from './components/ServerCustomHook';
+import UseReducer from './components/UseReducer';
+import Counter from './use-callback/Counter';
+import CounterPerf from './use-callback/CounterPerf';
+import Family from './use-callback/Family';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <UseEffect /> */}
+      {/* <Server /> */}
+      {/* <ServerCustomHook /> */}
+      {/* <UseReducer /> */}
+      {/* <Counter /> */}
+      {/* <CounterPerf /> */}
+      <Family />
     </div>
   );
 }
