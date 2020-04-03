@@ -6,6 +6,8 @@ import UseReducer from './components/UseReducer';
 import Counter from './use-callback/Counter';
 import CounterPerf from './use-callback/CounterPerf';
 import Family from './use-callback/Family';
+import TextInputWithFocusButton from './use-ref/TextInputWithFocusButton'
+import Timer from './use-ref/Timer'
 
 function App() {
   return (
@@ -16,7 +18,9 @@ function App() {
       {/* <UseReducer /> */}
       {/* <Counter /> */}
       {/* <CounterPerf /> */}
-      <Family />
+      {/* <Family /> */}
+      {/* <TextInputWithFocusButton /> */}
+      <Timer />
     </div>
   );
 }
